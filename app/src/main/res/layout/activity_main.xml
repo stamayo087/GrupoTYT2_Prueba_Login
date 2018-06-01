@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.grupotyt2_prueba_login.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <ImageView
+
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_marginTop="10sp"
+            android:src="@drawable/logo_tyt"
+            android:layout_centerHorizontal="true"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="210sp"
+            android:layout_centerHorizontal="true"
+            >
+
+
+            <EditText
+                android:id="@+id/etUsuario"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:hint="Ingrese Usuario"
+                />
+
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Ingrese Contraseña"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/btIngresar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Ingresar"
+
+                />
+
+            <TextView
+                android:id="@+id/tvPrueba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jklajdlak"
+                />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
